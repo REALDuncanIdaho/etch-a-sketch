@@ -1,0 +1,30 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 50px;
+    padding: 50px;
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    border: 1px solid black;
+    max-width: fit-content;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.col {
+    width: 10px;
+    height: 10px;
+    border: 1px;
+    background-color: white;
+    text-align: center; 
+}
+
